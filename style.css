@@ -2,35 +2,36 @@
   margin: 0;
 }
 body{
-  padding: 20px;
-  background-image: url(images/bg.jpg);cover;
+  padding: 40px;
+  background-image: url(images/bg4.jpg);cover;
   }
 h1{
   font-weight: normal;
-  color:yellow;
+  color:white;
   font-family:  'Source Sans Pro', sans-serif;
-  font-size: 2.3rem;
+  font-size: 2.0rem;
   margin: 2px 0;
   text-align: center;
 }
  h2,h3, h4, h5, h6, p{
    font-family:  'Source Sans Pro', sans-serif;
-   font-size:1rem;
+   color: white;
+   font-size:1.1rem;
    font-weight: normal;
    margin: 3px 0;
  }
  /* 라이트 박스 컨테이너 */
  #lightbox.active{
    position: absolute;overflow: hidden;
-   background:  #ffff1a;
-   width: 1000px;
-   height:680px;
-   left: 40%;
+   background:  #2d5986;
+   width:810px;
+   height:650px;
+   left: 45%;
    margin-left: -300px;
-   top: 56%;
-   margin-top:  -250px;
+   top: 50%;
+   margin-top:  -200px;
    box-sizing:  border-box;
-   padding: 30px;
+   padding: 56px;
    z-index: 99; display: block;
 
  }
@@ -38,7 +39,7 @@ h1{
    display: none;
  }
  #lightbox h1, #lightbox p{
-   color: green;
+   color: white;
    text-align: center;
    margin-bottom: 5px;
 
@@ -60,12 +61,12 @@ h1{
   /* 창 닫기 버튼 */
   .btn-close{
     position: absolute;
-    top: 0px; right:0px;
-    padding: 10px;
-    color: blue; font-size: large;
+    top: 1px; right:-8px;
+    padding: 17px;
+    color:white; font-size: large;
   }
   .btn-close:hover{
-    background-color: #666;
+    background-color:#666;
   }
   #block{
     position: fixed;
@@ -84,7 +85,7 @@ h1{
   .indicator button{
     background: #666; color: white;
     font-size: 13px;
-    border: none; padding: 3px 5px;
+    border: none; padding: 5px 8px;
    }
    .indicator button:focus{
      background: #38f;

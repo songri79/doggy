@@ -84,7 +84,7 @@ function change_img(val){
 
 //이미지 목록 click 이벤트 | 라이트 박스 열기
 $('img.thumb').click(function(){
-  var img_num = $(this).index() - 1;
+  var img_num = $(this).index() -3;
   console.log(img_num);
   lightbox_open(img_num);
 });
